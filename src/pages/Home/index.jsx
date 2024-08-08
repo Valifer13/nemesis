@@ -12,7 +12,7 @@ const Home = () => {
             Nemesis project for Security
           </h1>
           <h4 className="px-4 py-4">
-            All about network security needs for your company. Keep your business safe from cyber threat
+            Keep your business safe from cyber threat and make your business dream come true with us.
           </h4>
           <button type="button" className="btn btn-dark mx-4" id="read-btn">
             Read More
