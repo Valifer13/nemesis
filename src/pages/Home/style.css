@@ -1,0 +1,61 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    overflow: hidden !important;
+} */
+
+.row {
+    margin-right: 0;
+}
+
+.hero {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+.hero .text-content {
+    align-self: center;
+}
+
+.hero .text-content h1 {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+}
+
+.hero .text-content h4 {
+    font-family: "Poppins", sans-serif;
+    color: #888888;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.hero .image-content img {
+    width: 600px;
+    height: 300px;
+}
+
+.wave-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    fill: white;
+    z-index: -0;
+}
+
+.btn {
+    transform: scaleX(1) scaleY(1);
+    transition: .5s ease all;
+}
+
+.btn:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+}
